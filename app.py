@@ -5,7 +5,7 @@ import io
 import contextlib
 
 st.set_page_config(layout="wide")
-st.title("💻 พื้นที่ฝึกเขียน Python (Pandas & Matplotlib)")
+st.title("💻 ฝึกเขียน Python (Data visualization) :by UPR Wuttichai")
 
 # --- ส่วนของการสร้างไฟล์ CSV จำลองในระบบ ---
 @st.cache_data
