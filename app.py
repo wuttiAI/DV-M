@@ -36,16 +36,7 @@ stdData = pd.read_csv('studentData-noHeader.csv', delimiter=',', names=['ID','Ge
 sciData = pd.read_csv('sciScore.csv', delimiter=',')
 
 # ✍️ พิมพ์หรือแก้ไขโค้ดของคุณตรงนี้
-newData = stdData.merge(sciData, left_on='ID', right_on='เลขประจำตัว', how='inner')
-print(newData)
 
-newData.CsScore.hist(range=[0,20], bins=21)
-plt.title('Computing Science Test Score Frequency')
-plt.xlabel('CsScore')
-plt.ylabel('Frequency')
-plt.axis([0,20,0,5])
-plt.xticks(range(0,21,2))
-plt.show()
 """
 
 # --- ส่วนแสดงหน้าจอแบ่งเป็น 2 ฝั่ง ---
