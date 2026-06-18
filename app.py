@@ -29,11 +29,7 @@ def create_mock_data():
 create_mock_data()
 
 # --- โค้ดตั้งต้นที่แสดงในช่องพิมพ์ ---
-default_code = """import pandas as pd
-import matplotlib.pyplot as plt
-
-stdData = pd.read_csv('studentData-noHeader.csv', delimiter=',', names=['ID','Gender','CsScore','Height'])
-sciData = pd.read_csv('sciScore.csv', delimiter=',')
+default_code = """
 
 # ✍️ พิมพ์หรือแก้ไขโค้ดของคุณตรงนี้
 
